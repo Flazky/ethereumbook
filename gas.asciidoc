@@ -2,6 +2,9 @@
 == Questions that need to be answered in this section
 
 * What is Gas
+** The Ethereum platform implements a cost-driven environment called the Ethereum Virtual Machine (EVM) that is created by a network of individual nodes who participate in the block verification protocol. Each node verifies and processes the same transactions posted to the EVM, redundantly in parallel, with every other node on the network. This creates an exceptionally robust and secure public ledger without the need of trusted third parties. However, the disadvantage of this type of system, is the expensive nature of executing tasks on the network. As such, every contract or instruction executed on every node of the network has a costed represented by the unit Ether. 
+The term “Gas” is the name of unit used by the Ethereum Virtual Machine (EVM) to measure how much “Ether” is required to perform a task. Every transaction or contract created on the Ethereum platform costs an X amount of ether.
+
 * What is gas cost
 * What is the gas limit
 * How is gas counted
